@@ -21,11 +21,11 @@ body{
 .slide{
   width: 100vw;
   height: 100vh;
-  animation: anim2 0.5s ease 1 alternate 0s forwards;
+  animation: anim2 0.3s ease 1 alternate 0s forwards;
 }
 .slide.active{
   z-index: 2;
-  animation: anim 0.5s ease 1 alternate 2s forwards ;
+  animation: anim 0.3s ease 1 alternate 2s forwards ;
 }
 @keyframes anim {
   0%{
